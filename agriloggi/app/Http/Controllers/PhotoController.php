@@ -31,7 +31,11 @@ class PhotoController extends Controller
      */
     public function create()
     {
-        //
+        $user = new ModelProduct();
+        $user->name = '';
+        $user->email = '';
+        $user->password = Hash:make('')
+        $user->save();
     }
 
     /**
