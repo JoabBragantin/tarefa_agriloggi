@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'App\Http\Controllers\PhotoController@index');
+Route::get('cadastro', 'App\Http\Controllers\PhotoController@photoAddUser') ->name('users.photoAddUser');
