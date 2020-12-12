@@ -29,9 +29,9 @@ class PhotoController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function photoAddUser()
     {
-        //
+        return view('addUser');
     }
 
     /**
