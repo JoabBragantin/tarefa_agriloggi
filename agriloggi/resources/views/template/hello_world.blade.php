@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 
-@extends('adduser.addUser')
 @section('content')
 <html lang="pt-br">
 <head>
